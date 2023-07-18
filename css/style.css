@@ -25,6 +25,10 @@ body {
   border: none;
   outline: none;
   color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 18px 30px;
+  text-transform: uppercase;
   background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
 }
 
@@ -106,15 +110,18 @@ body {
 .banner-container {
   display: flex;
   align-items: center;
+  
 }
 .banner-content {
   width: 50%;
 }
 .banner-image {
   width: 50%;
+  margin-top: 20px;
 }
 .banner-image img {
   width: 100%;
+  display: block;
 }
 .banner-content h3 {
   font-size: 3rem;
@@ -127,4 +134,27 @@ body {
   font-weight: 800;
   text-transform: uppercase;
 }
+
+.banner-content ul li{
+  list-style: none;
+  font-size: 1.25rem;
+  margin-top: 20px;
+  font-weight: 500;
+  color: var(--primary-color);
+}
+.banner-content ul li i{
+  width: 30px;
+ 
+}
+.banner-content .banner-buttons{
+  margin-top: 30px;
+  display: flex;
+}
+.banner-content .banner-buttons button{
+  margin-right: 20px;
+}
+.banner-content .banner-buttons .rought-btn{
+  background:  #4EC5F7;
+}
+
 /* banner section styles code end here */
