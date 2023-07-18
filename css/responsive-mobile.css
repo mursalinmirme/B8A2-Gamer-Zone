@@ -20,7 +20,7 @@
     margin-left: 0px;
   }
   /* header responsive end */
-} /*mobile version media query selector*/
+} 
 /* end mobile version @query */
 @media screen and (min-width: 576px) and (max-width: 970px) {
   .header-container .logo {

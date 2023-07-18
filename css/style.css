@@ -27,6 +27,7 @@ body {
   color: #ffffff;
   background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
 }
+
 .container {
   max-width: 1200px;
   margin: auto;
@@ -59,8 +60,8 @@ body {
   color: #ff42a5;
 }
 /* navbar */
-.nav{
-    width: 50%;
+.nav {
+  width: 50%;
 }
 .nav .nav-item-container {
   display: flex;
@@ -83,33 +84,47 @@ body {
   padding: 10px 15px;
   background: rgba(11, 2, 35, 0.1);
 }
-.nav .nav-item-container .header-follow-btn i{
+.nav .nav-item-container .header-follow-btn i {
   color: red;
   margin-left: 10px;
   font-size: 1.16rem;
 }
-.nav .nav-item-container .header-follow-btn .youtube-icon{
-  color: #F61C0D;
+.nav .nav-item-container .header-follow-btn .youtube-icon {
+  color: #f61c0d;
 }
-.nav .nav-item-container .header-follow-btn .tiktok-icon{
+.nav .nav-item-container .header-follow-btn .tiktok-icon {
   color: #000223;
 }
 /* header styles code end here */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* banner section styles code start here */
+.banner {
+  background-image: url("../images/Group\ 14.png");
+  background-repeat: no-repeat;
+  background-size: 50% 100%;
+}
+.banner-container {
+  display: flex;
+  align-items: center;
+}
+.banner-content {
+  width: 50%;
+}
+.banner-image {
+  width: 50%;
+}
+.banner-image img {
+  width: 100%;
+}
+.banner-content h3 {
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--secondary-color);
+}
+.banner-content h2 {
+  font-size: 5.93rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+/* banner section styles code end here */
