@@ -20,35 +20,96 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.primary-btn{
-    border-radius: 48px;
-    border: none;
-    outline: none;
-    color: #FFFFFF;
-    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+.primary-btn {
+  border-radius: 48px;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
 }
-.container{
-    width: 1200px;
-    margin: auto;
+.container {
+  max-width: 1200px;
+  margin: auto;
 }
 /* shares class codes end here */
 
 /* header styles code start here */
-.header .header-container{
-    display: flex;
-    justify-content: space-between;
+.header {
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+  padding: 20px;
 }
-.header-container .logo{
-    display: flex;
-    align-items: center;
+.header .header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.header-container .logo img{
-
+.header-container .logo {
+  width: 50%;
+  display: flex;
+  align-items: center;
 }
-.header-container .logo h1{
-
+.header-container .logo img {
+  height: 40px;
 }
-.header-container .logo h1 .logo-g{
-
+.header-container .logo h1 {
+  color: #000223;
+  margin-left: 15px;
+}
+.header-container .logo h1 .logo-g {
+  color: #ff42a5;
+}
+/* navbar */
+.nav{
+    width: 50%;
+}
+.nav .nav-item-container {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.nav .nav-item-container .nav-item {
+  list-style: none;
+  margin-left: 35px;
+  font-size: 1.16rem;
+}
+.nav .nav-item-container .nav-item a {
+  text-decoration: none;
+  color: #3c354f;
+  font-weight: 500;
+}
+.nav .nav-item-container .header-follow-btn {
+  display: flex;
+  border-radius: 8px;
+  padding: 10px 15px;
+  background: rgba(11, 2, 35, 0.1);
+}
+.nav .nav-item-container .header-follow-btn i{
+  color: red;
+  margin-left: 10px;
+  font-size: 1.16rem;
+}
+.nav .nav-item-container .header-follow-btn .youtube-icon{
+  color: #F61C0D;
+}
+.nav .nav-item-container .header-follow-btn .tiktok-icon{
+  color: #000223;
 }
 /* header styles code end here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
