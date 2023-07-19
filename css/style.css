@@ -376,82 +376,76 @@ body {
 /* games list styles code end here */
 
 /* footer styles code start */
-.footer{
+.footer {
   margin-top: 80px;
-  background-color: #0B0223;
+  background-color: #0b0223;
 }
 .footer-wrapper {
   padding-top: 100px;
   color: #ffff;
 }
-.footer-wrapper .footer-logo{
+.footer-wrapper .footer-logo {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.footer-wrapper .footer-logo h1{
+.footer-wrapper .footer-logo h1 {
   margin-left: 15px;
-  font-size: 2.50rem;
+  font-size: 2.5rem;
 }
-.footer-wrapper .footer-logo img{
+.footer-wrapper .footer-logo img {
   height: 40px;
 }
-.footer-wrapper .footer-nav ul{
+.footer-wrapper .footer-nav ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 70px;
 }
-.footer-wrapper .footer-nav ul li{
+.footer-wrapper .footer-nav ul li {
   list-style: none;
   margin: 0 15px;
   font-weight: 600;
   font-size: 1rem;
 }
-.footer-wrapper .footer-icon{
+.footer-wrapper .footer-icon {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 40px;
   padding: 0 50px;
 }
-.footer-wrapper .footer-icon a{
+.footer-wrapper .footer-icon a {
   color: white;
   margin: 20px 25px;
-
 }
-.footer-wrapper .footer-icon a i{
+.footer-wrapper .footer-icon a i {
   font-size: 2.2rem;
-
 }
 
-.footer-wrapper .footer-permission ul{ 
+.footer-wrapper .footer-permission ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 0px;
-
 }
-.footer-wrapper .footer-permission ul li{ 
+.footer-wrapper .footer-permission ul li {
   list-style: none;
   margin: 20px 20px;
-  color: rgba(255, 255, 255, 0.60);
+  color: rgba(255, 255, 255, 0.6);
 }
-.footer-wrapper .footer-copyright{
+.footer-wrapper .footer-copyright {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 40px;
   padding-bottom: 80px;
-
 }
-.footer-wrapper .footer-copyright p{
+.footer-wrapper .footer-copyright p {
   width: 56%;
   text-align: center;
-  color: rgba(255, 255, 255, 0.60);
+  color: rgba(255, 255, 255, 0.6);
   line-height: 25px;
 }
-
-
 
 /* footer styles code end */
