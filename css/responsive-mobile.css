@@ -21,93 +21,87 @@
   }
   /* header responsive end */
 
-/* banner section mobile responsive start */
-.banner{
-  background-position: bottom left 30px;
-  background-size: 100% 53%;
-  background-size: ;
+  /* banner section mobile responsive start */
+  .banner {
+    background-position: bottom left 30px;
+    background-size: 100% 53%;
+    background-size: ;
+  }
+  .banner-container {
+    flex-direction: column-reverse;
+  }
+  .banner-image {
+    width: 100%;
+  }
+  .banner-image img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+  }
+  .banner-content {
+    width: 80%;
+    padding-top: 80px;
+    padding-left: 65px;
+    /* background-color: rgb(221, 171, 236); */
+  }
+  .banner-content h3 {
+    font-size: 1.7rem;
+  }
+  .banner-content h2 {
+    font-size: 2.75rem;
+  }
+  .banner-content ul li {
+    font-size: 0.85rem;
+  }
+  .banner-content ul li i {
+    width: 30px;
+  }
+  .banner-content .banner-buttons {
+    justify-content: start;
+    padding-bottom: 80px;
+  }
+  .banner-content .banner-buttons button {
+    margin-right: 10px;
+    font-size: 0.8rem;
+    padding: 12px 20px;
+  }
 
-}
-.banner-container {
-  flex-direction: column-reverse;
-}
-.banner-image{
-  width: 100%;
-}
-.banner-image img{
-  width: 80%;
-  display: block;
-  margin: 0 auto;
-}
-.banner-content{
-  width: 80%;
-  padding-top: 80px;
-  padding-left: 65px;
-  /* background-color: rgb(221, 171, 236); */
-}
-.banner-content h3 {
-  font-size: 1.7rem;
-}
-.banner-content h2 {
-  font-size: 2.75rem;
-}
-.banner-content ul li{
-  font-size: 0.85rem;
-}
-.banner-content ul li i{
-  width: 30px;
+  /* banner section mobile responsive end */
 
+  /* about section mobile responstve code start*/
+  .about {
+    background: none;
+  }
+  .about-container {
+    flex-direction: column;
+  }
+  .about-image {
+    width: 100%;
+  }
+  .about-content {
+    width: 70%;
+    text-align: center;
+    margin-top: 40px;
+  }
+  .about-content .about-title {
+    font-size: 1.9rem;
+  }
+  .about-content .about-desc {
+    font-size: 1rem;
+  }
+  .about-content .about-btn {
+    font-size: 0.8rem;
+  }
+  .about-content .proverb-title {
+    font-size: 1.1rem;
+    margin-top: 50px;
+  }
+  .about-content .proverb-desc {
+    font-size: 1.1rem;
+    margin-top: 10px;
+  }
+  /* about section mobile responstve code end*/
 }
-.banner-content .banner-buttons{
-  justify-content: start;
-  padding-bottom: 80px;
-}
-.banner-content .banner-buttons button{
-  margin-right: 10px;
-  font-size: 0.80rem;
-  padding: 12px 20px;
-}
-
-/* banner section mobile responsive end */
-
-/* about section mobile responstve code start*/
-.about{
-  background: none;
-}
-.about-container{
-  flex-direction: column;
-}
-.about-image{
-  width: 100%;
-}
-.about-content{
-  width: 70%;
-  text-align: center;
-  margin-top: 40px;
-}
-.about-content .about-title{
-  font-size: 1.9rem;
-}
-.about-content .about-desc{
-  font-size: 1rem;
-}
-.about-content .about-btn{
-  font-size: 0.8rem;
-}
-.about-content .proverb-title{
-  font-size: 1.1rem;
-  margin-top: 50px;
-}
-.about-content .proverb-desc{
-  font-size: 1.1rem;
-  margin-top: 10px;
-}
-/* about section mobile responstve code end*/
-
-
-
-
-} 
 /* end mobile version @query */
 @media screen and (min-width: 576px) and (max-width: 970px) {
   .header-container .logo {
@@ -127,88 +121,84 @@
     margin-left: 0px;
   }
   /* header responsive end */
-/* banner section mobile responsive start */
-.banner{
-  background-position: bottom left 50px;
-  background-size: 100% 42%;
+  /* banner section mobile responsive start */
+  .banner {
+    background-position: bottom left 50px;
+    background-size: 100% 42%;
+  }
+  .banner-container {
+    flex-direction: column-reverse;
+  }
+  .banner-image {
+    width: 100%;
+  }
+  .banner-image img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+  }
+  .banner-content {
+    width: 50%;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    padding-left: 60px;
+  }
+  .banner-content h3 {
+    font-size: 1.75rem;
+  }
+  .banner-content h2 {
+    font-size: 3.3rem;
+  }
+  .banner-content ul li {
+    font-size: 1rem;
+  }
+  .banner-content ul li i {
+    width: 30px;
+  }
+  .banner-content .banner-buttons {
+    justify-content: start;
+    padding-bottom: 40px;
+  }
+  .banner-content .banner-buttons button {
+    margin: 0px 0px;
+    margin-right: 20px;
+    font-size: 1rem;
+    padding: 15px 25px;
+  }
 
-}
-.banner-container {
-  flex-direction: column-reverse;
-}
-.banner-image{
-  width: 100%;
-}
-.banner-image img{
-  width: 80%;
-  display: block;
-  margin: 0 auto;
-}
-.banner-content{
-  width: 50%;
-  margin-top: 70px;
-  margin-bottom: 50px;
-  padding-left: 60px;
-  
-}
-.banner-content h3 {
-  font-size: 1.75rem;
-}
-.banner-content h2 {
-  font-size: 3.3rem;
-}
-.banner-content ul li{
-  font-size: 1rem;
-}
-.banner-content ul li i{
-  width: 30px;
+  /* banner section mobile responsive end */
 
-}
-.banner-content .banner-buttons{
-  justify-content: start;
-  padding-bottom: 40px;
-}
-.banner-content .banner-buttons button{
-  margin: 0px 0px;
-  margin-right: 20px;
-  font-size: 1rem;
-  padding: 15px 25px;
-}
-
-/* banner section mobile responsive end */
-
-/* about section mobile responstve code start*/
-.about{
-  background: none;
-}
-.about-container{
-  flex-direction: column;
-}
-.about-image{
-  width: 100%;
-}
-.about-content{
-  width: 70%;
-  text-align: center;
-  margin-top: 40px;
-}
-.about-content .about-title{
-  font-size: 1.9rem;
-}
-.about-content .about-desc{
-  font-size: 1rem;
-}
-.about-content .about-btn{
-  font-size: 0.8rem;
-}
-.about-content .proverb-title{
-  font-size: 1.1rem;
-  margin-top: 50px;
-}
-.about-content .proverb-desc{
-  font-size: 1.1rem;
-  margin-top: 10px;
-}
-/* about section mobile responstve code end*/
-
+  /* about section mobile responstve code start*/
+  .about {
+    background: none;
+  }
+  .about-container {
+    flex-direction: column;
+  }
+  .about-image {
+    width: 100%;
+  }
+  .about-content {
+    width: 70%;
+    text-align: center;
+    margin-top: 40px;
+  }
+  .about-content .about-title {
+    font-size: 1.9rem;
+  }
+  .about-content .about-desc {
+    font-size: 1rem;
+  }
+  .about-content .about-btn {
+    font-size: 0.8rem;
+  }
+  .about-content .proverb-title {
+    font-size: 1.1rem;
+    margin-top: 50px;
+  }
+  .about-content .proverb-desc {
+    font-size: 1.1rem;
+    margin-top: 10px;
+  }
+  /* about section mobile responstve code end*/
 }

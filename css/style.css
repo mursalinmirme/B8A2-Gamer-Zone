@@ -110,7 +110,6 @@ body {
 .banner-container {
   display: flex;
   align-items: center;
-  
 }
 .banner-content {
   width: 50%;
@@ -135,79 +134,90 @@ body {
   text-transform: uppercase;
 }
 
-.banner-content ul li{
+.banner-content ul li {
   list-style: none;
   font-size: 1.25rem;
   margin-top: 20px;
   font-weight: 500;
   color: var(--primary-color);
 }
-.banner-content ul li i{
+.banner-content ul li i {
   width: 30px;
- 
 }
-.banner-content .banner-buttons{
+.banner-content .banner-buttons {
   margin-top: 30px;
   display: flex;
 }
-.banner-content .banner-buttons button{
+.banner-content .banner-buttons button {
   margin-right: 20px;
 }
-.banner-content .banner-buttons .rought-btn{
-  background:  #4EC5F7;
+.banner-content .banner-buttons .rought-btn {
+  background: #4ec5f7;
 }
 
 /* banner section styles code end here */
 
 /* about section styles code start here */
-.about{
-  background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+.about {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
   padding: 40px 0;
 }
-.about-container{
+.about-container {
   display: flex;
   align-items: center;
 }
-.about-image{
+.about-image {
   width: 60%;
 }
-.about-image img{
+.about-image img {
   width: 100%;
   display: block;
 }
-.about-content{
+.about-content {
   width: 40%;
   text-align: right;
-
 }
-.about-content .about-title{
-  font-size: 2.50rem;
+.about-content .about-title {
+  font-size: 2.5rem;
   font-weight: 700;
 }
-.about-content .about-desc{
-  font-size: 1.10rem;
+.about-content .about-desc {
+  font-size: 1.1rem;
   font-weight: 400;
   margin: 20px 0 30px;
   line-height: 26px;
   color: var(--primary-color);
 }
-.about-content .about-desc .about-btn{
+.about-content .about-desc .about-btn {
   font-weight: 600;
   font-size: 1.25rem;
 }
-.about-content .proverb-title{
+.about-content .proverb-title {
   font-size: 1.3rem;
   font-weight: 500;
   margin-top: 25px;
   color: var(--secondary-color);
-
 }
-.about-content .proverb-desc{
+.about-content .proverb-desc {
   margin-top: 5px;
   font-size: 1.6rem;
   color: var(--secondary-color);
 }
 /* about section styles code end here */
+
+/* online video section style code start here */
+.online-video-container .video-sec-title, .video-sec-desc{
+
+}
+/* online video section style code end here */
+
+
+
+
 
 
 
