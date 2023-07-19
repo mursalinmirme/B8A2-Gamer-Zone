@@ -28,6 +28,7 @@ body {
   font-size: 1rem;
   font-weight: 600;
   padding: 18px 30px;
+  cursor: pointer;
   text-transform: uppercase;
   background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
 }
@@ -210,9 +211,6 @@ body {
 /* about section styles code end here */
 
 /* online video section style code start here */
-/* .online-video{
-  
-} */
 .online-video-container {
   padding-top: 100px;
 }
@@ -225,7 +223,7 @@ body {
 }
 .online-video-container .video-sec-desc {
   font-size: 1rem;
-  margin-top: 10px;
+  margin-top: 15px;
   font-weight: 400;
 }
 
@@ -272,6 +270,7 @@ body {
   text-decoration: none;
 }
 .video-card-wrap .single-video .video-card-image:hover .video-card-tumbnail {
+  cursor: pointer;
   visibility: visible;
 }
 .video-card-wrap .single-video .video-title {
@@ -372,6 +371,7 @@ body {
 }
 .games-list-wrapper .single-game:hover {
   border: 2px solid #f948b2;
+  cursor: pointer;
 }
 /* games list styles code end here */
 
@@ -407,6 +407,7 @@ body {
   margin: 0 15px;
   font-weight: 600;
   font-size: 1rem;
+  cursor: pointer;
 }
 .footer-wrapper .footer-icon {
   display: flex;
@@ -449,3 +450,4 @@ body {
 }
 
 /* footer styles code end */
+/* This code is written by Mursalin Mir */

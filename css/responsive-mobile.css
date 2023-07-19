@@ -25,7 +25,6 @@
   .banner {
     background-position: bottom left 30px;
     background-size: 100% 53%;
-    background-size: ;
   }
   .banner-container {
     flex-direction: column-reverse;
@@ -111,6 +110,7 @@
   }
   .online-video-container .video-sec-desc {
     font-size: 0.7rem;
+    margin-top: 15px;
   }
 
   .online-video-container .video-card-wrap {
@@ -217,6 +217,9 @@
   /* games list mobile responsive styles code end here */
 
   /* footer section responsive for mobile code start */
+  .footer {
+    margin-top: 60px;
+  }
   .footer-wrapper {
     padding-top: 70px;
   }
@@ -454,3 +457,4 @@
     margin-top: 10px;
   }
 }
+/* This code is written by Mursalin Mir */
