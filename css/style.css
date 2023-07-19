@@ -363,6 +363,9 @@ body {
   color: var(--secondary-color);
   padding-right: 5px;
 }
+.games-list-wrapper .single-game:hover p{
+  color: #f948b2;
+}
 .games-list-wrapper .single-game:hover{
   border: 2px solid #f948b2;
 }
