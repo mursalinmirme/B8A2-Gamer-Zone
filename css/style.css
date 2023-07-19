@@ -285,97 +285,173 @@ body {
 /* online video section style code end here */
 
 /* games-option section styles codes start */
-.games-option-container{
+.games-option-container {
   padding-top: 100px;
-  
 }
-.games-option-container .games-option-wrap{
+.games-option-container .games-option-wrap {
   display: flex;
   align-items: center;
 }
-.games-option-container .games-option-wrap .games-option-content{
+.games-option-container .games-option-wrap .games-option-content {
   width: 50%;
   padding-right: 100px;
   text-align: right;
 }
-.games-option-container .games-option-wrap .games-option-content .games-option-title{
+.games-option-container
+  .games-option-wrap
+  .games-option-content
+  .games-option-title {
   font-size: 3rem;
   font-weight: 700;
   color: var(--secondary-color);
 }
-.games-option-container .games-option-wrap .games-option-content .games-option-desc{
-  font-size: 1.10rem;
+.games-option-container
+  .games-option-wrap
+  .games-option-content
+  .games-option-desc {
+  font-size: 1.1rem;
   font-weight: 400;
   color: var(--primary-color);
   line-height: 30px;
   margin-top: 20px;
   padding-left: 30%;
 }
-.games-option-container .games-option-wrap .games-option-image{
+.games-option-container .games-option-wrap .games-option-image {
   width: 50%;
   text-align: right;
 }
-.games-option-container .games-option-wrap .games-option-image img{
+.games-option-container .games-option-wrap .games-option-image img {
   width: 80%;
 }
-.games-option-container .floating-image{
+.games-option-container .floating-image {
   text-align: center;
 }
-.games-option-container .floating-image .games-option-float-img{
+.games-option-container .floating-image .games-option-float-img {
   border-radius: 8px;
   width: 270px;
   height: 320px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   margin-top: -250px;
   margin-left: 235px;
 }
 /* games-option section styles codes end */
 
 /* games list styles code start here */
-.games-list-container{
+.games-list-container {
   margin-top: 120px;
 }
-.games-list-wrapper{
+.games-list-wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
   gap: 30px;
 }
-.games-list-wrapper .single-game{
+.games-list-wrapper .single-game {
   display: flex;
   align-items: center;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   /* width: 220px; */
   padding: 5px;
   margin-top: 20px;
   border-radius: 50px;
 }
-.games-list-wrapper .single-game img{
+.games-list-wrapper .single-game img {
   width: 50px;
   height: 50px;
-
 }
-.games-list-wrapper .single-game p{
+.games-list-wrapper .single-game p {
   font-size: 1rem;
   font-weight: 600;
   margin-left: 10px;
   color: var(--secondary-color);
   padding-right: 5px;
 }
-.games-list-wrapper .single-game:hover p{
+.games-list-wrapper .single-game:hover p {
   color: #f948b2;
 }
-.games-list-wrapper .single-game:hover{
+.games-list-wrapper .single-game:hover {
   border: 2px solid #f948b2;
 }
 /* games list styles code end here */
 
+/* footer styles code start */
+.footer{
+  margin-top: 80px;
+  background-color: #0B0223;
+}
+.footer-wrapper {
+  padding-top: 100px;
+  color: #ffff;
+}
+.footer-wrapper .footer-logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-wrapper .footer-logo h1{
+  margin-left: 15px;
+  font-size: 2.50rem;
+}
+.footer-wrapper .footer-logo img{
+  height: 40px;
+}
+.footer-wrapper .footer-nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 70px;
+}
+.footer-wrapper .footer-nav ul li{
+  list-style: none;
+  margin: 0 15px;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.footer-wrapper .footer-icon{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+  padding: 0 50px;
+}
+.footer-wrapper .footer-icon a{
+  color: white;
+  margin: 20px 25px;
+
+}
+.footer-wrapper .footer-icon a i{
+  font-size: 2.2rem;
+
+}
+
+.footer-wrapper .footer-permission ul{ 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 0px;
+
+}
+.footer-wrapper .footer-permission ul li{ 
+  list-style: none;
+  margin: 20px 20px;
+  color: rgba(255, 255, 255, 0.60);
+}
+.footer-wrapper .footer-copyright{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+  padding-bottom: 80px;
+
+}
+.footer-wrapper .footer-copyright p{
+  width: 56%;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.60);
+  line-height: 25px;
+}
 
 
 
-
-
-
-
-
+/* footer styles code end */

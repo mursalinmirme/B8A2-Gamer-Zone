@@ -213,7 +213,28 @@
 }
 /* games list mobile responsive styles code end here */
 
+/* footer section responsive for mobile code start */
+.footer-wrapper {
+  padding-top: 70px;
 
+}
+.footer-wrapper .footer-logo img{
+  height: 40px;
+}
+.footer-wrapper .footer-logo h1{
+  margin-left: 15px;
+  font-size: 2rem;
+}
+.footer-wrapper .footer-nav ul{
+  margin-top: 70px;
+}
+.footer-wrapper .footer-nav ul li{
+  list-style: none;
+  margin: 20px 20px;
+  font-weight: 600;
+  font-size: 1rem;
+}
+/* footer section responsive for mobile code start */
 
 
 }
