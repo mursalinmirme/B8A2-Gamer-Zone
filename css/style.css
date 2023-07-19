@@ -210,9 +210,85 @@ body {
 /* about section styles code end here */
 
 /* online video section style code start here */
-.online-video-container .video-sec-title, .video-sec-desc{
-
+/* .online-video{
+  
+} */
+.online-video-container{
+  padding-top: 100px;
 }
+.online-video-container .video-sec-title, .video-sec-desc{
+  text-align: center;
+}
+.online-video-container .video-sec-title{
+  font-size: 2.3rem;
+}
+.online-video-container .video-sec-desc{
+  font-size: 1.rem;
+  margin-top: 10px;
+  font-weight: 400;
+}
+
+.online-video-container .video-card-wrap{
+  margin-top: 50px;
+  display: flex;
+  gap: 15px;
+}
+.online-video-container .video-card-wrap .single-video{
+  width: 25%;
+}
+.video-card-wrap .single-video .video-card-image{
+  position: relative;
+}
+.video-card-wrap .single-video .video-card-image img{
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 16px;
+}
+.video-card-wrap .single-video .video-card-image .video-card-tumbnail{
+position: absolute;
+width: 100%;
+height: 100%;
+top: 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border-radius: 16px;
+background-color: #000000bf;
+border: 3px solid #f948b2;
+visibility: hidden;
+}
+.video-card-wrap .single-video .video-card-image .video-card-tumbnail i{
+  color: #FFFFFF;
+  font-size: 2rem;
+  
+}
+.video-card-wrap .single-video .video-card-image .video-card-tumbnail p{
+  color: #FFFFFF;
+  color: #f948b2;
+  margin-top: 15px;
+  font-size: 1rem;
+  text-decoration: none;
+}
+.video-card-wrap .single-video .video-card-image:hover .video-card-tumbnail{
+  visibility: visible;
+}
+.video-card-wrap .single-video .video-title{
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-top: 15px;
+  line-height: 25px;
+  color: var(--primary-color);
+}
+
+
+
+
+
+
+
+
 /* online video section style code end here */
 
 
