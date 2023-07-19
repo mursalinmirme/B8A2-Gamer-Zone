@@ -24,7 +24,9 @@
 /* banner section mobile responsive start */
 .banner{
   background-position: bottom left 30px;
-  background-size: 100% 50%;
+  background-size: 100% 53%;
+  background-size: ;
+
 }
 .banner-container {
   flex-direction: column-reverse;
@@ -38,8 +40,10 @@
   margin: 0 auto;
 }
 .banner-content{
-  width: 60%;
-  margin-top: 60px;
+  width: 80%;
+  padding-top: 80px;
+  padding-left: 65px;
+  /* background-color: rgb(221, 171, 236); */
 }
 .banner-content h3 {
   font-size: 1.7rem;
@@ -55,8 +59,8 @@
 
 }
 .banner-content .banner-buttons{
-  justify-content: center;
-  padding-bottom: 40px;
+  justify-content: start;
+  padding-bottom: 80px;
 }
 .banner-content .banner-buttons button{
   margin-right: 10px;
@@ -65,6 +69,29 @@
 }
 
 /* banner section mobile responsive end */
+
+/* about section mobile responstve code start*/
+.about{
+  background: none;
+}
+.about-container{
+  flex-direction: column;
+}
+.about-image{
+  width: 100%;
+}
+.about-content{
+  width: 60%;
+  text-align: center;
+  margin-top: 40px;
+}
+.about-content .about-title{
+  font-size: 1.8rem;
+}
+/* about section mobile responstve code end*/
+
+
+
 
 } 
 /* end mobile version @query */
