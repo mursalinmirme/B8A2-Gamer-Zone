@@ -138,7 +138,51 @@
   color: var(--primary-color);
 }
 /* online video section responsive code end */
+/* games-option section mobile responsive code start */
+.games-option-container{
+  padding-top: 50px;
+  
+}
+.games-option-container .games-option-wrap{
+  flex-direction: column;
+}
+.games-option-container .games-option-wrap .games-option-content{
+  width: 100%;
+  padding-right: 0;
+  text-align: center;
+}
+.games-option-container .games-option-wrap .games-option-content .games-option-title{
+  font-size: 2.1rem;
 
+}
+.games-option-container .games-option-wrap .games-option-content .games-option-desc{
+  font-size: 1.05rem;
+  line-height: 30px;
+  margin-top: 20px;
+  padding-left: 0;
+  padding: 0 30px;
+}
+.games-option-container .games-option-wrap .games-option-image{
+  width: 100%;
+  text-align: right;
+  margin-top: 40px;
+  padding-right: 20px;
+}
+.games-option-container .games-option-wrap .games-option-image img{
+  width: 75%;
+}
+.games-option-container .floating-image{
+  text-align: left;
+}
+.games-option-container .floating-image .games-option-float-img{
+  border-radius: 8px;
+  width: 50%;
+  height: 50%;
+  background-color: #FFFFFF;
+  margin-top: -150px;
+  margin-left: 10px;
+}
+/* games-option section mobile responsive code end */
 
 }
 /* end mobile version @query */

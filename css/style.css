@@ -213,68 +213,68 @@ body {
 /* .online-video{
   
 } */
-.online-video-container{
+.online-video-container {
   padding-top: 100px;
 }
-.online-video-container .video-sec-title, .video-sec-desc{
+.online-video-container .video-sec-title,
+.video-sec-desc {
   text-align: center;
 }
-.online-video-container .video-sec-title{
+.online-video-container .video-sec-title {
   font-size: 2.3rem;
 }
-.online-video-container .video-sec-desc{
-  font-size: 1.rem;
+.online-video-container .video-sec-desc {
+  font-size: 1rem;
   margin-top: 10px;
   font-weight: 400;
 }
 
-.online-video-container .video-card-wrap{
+.online-video-container .video-card-wrap {
   margin-top: 50px;
   display: flex;
   gap: 15px;
 }
-.online-video-container .video-card-wrap .single-video{
+.online-video-container .video-card-wrap .single-video {
   width: 25%;
 }
-.video-card-wrap .single-video .video-card-image{
+.video-card-wrap .single-video .video-card-image {
   position: relative;
 }
-.video-card-wrap .single-video .video-card-image img{
+.video-card-wrap .single-video .video-card-image img {
   width: 100%;
   height: 100%;
   display: block;
   border-radius: 16px;
 }
-.video-card-wrap .single-video .video-card-image .video-card-tumbnail{
-position: absolute;
-width: 100%;
-height: 100%;
-top: 0;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-border-radius: 16px;
-background-color: #000000bf;
-border: 3px solid #f948b2;
-visibility: hidden;
+.video-card-wrap .single-video .video-card-image .video-card-tumbnail {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  background-color: #000000bf;
+  border: 3px solid #f948b2;
+  visibility: hidden;
 }
-.video-card-wrap .single-video .video-card-image .video-card-tumbnail i{
-  color: #FFFFFF;
+.video-card-wrap .single-video .video-card-image .video-card-tumbnail i {
+  color: #ffffff;
   font-size: 2rem;
-  
 }
-.video-card-wrap .single-video .video-card-image .video-card-tumbnail p{
-  color: #FFFFFF;
+.video-card-wrap .single-video .video-card-image .video-card-tumbnail p {
+  color: #ffffff;
   color: #f948b2;
   margin-top: 15px;
   font-size: 1rem;
   text-decoration: none;
 }
-.video-card-wrap .single-video .video-card-image:hover .video-card-tumbnail{
+.video-card-wrap .single-video .video-card-image:hover .video-card-tumbnail {
   visibility: visible;
 }
-.video-card-wrap .single-video .video-title{
+.video-card-wrap .single-video .video-title {
   font-size: 1.1rem;
   font-weight: 500;
   margin-top: 15px;
@@ -282,14 +282,55 @@ visibility: hidden;
   color: var(--primary-color);
 }
 
-
-
-
-
-
-
-
 /* online video section style code end here */
+
+/* games-option section styles codes start */
+.games-option-container{
+  padding-top: 100px;
+  
+}
+.games-option-container .games-option-wrap{
+  display: flex;
+  align-items: center;
+}
+.games-option-container .games-option-wrap .games-option-content{
+  width: 50%;
+  padding-right: 100px;
+  text-align: right;
+}
+.games-option-container .games-option-wrap .games-option-content .games-option-title{
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--secondary-color);
+}
+.games-option-container .games-option-wrap .games-option-content .games-option-desc{
+  font-size: 1.10rem;
+  font-weight: 400;
+  color: var(--primary-color);
+  line-height: 30px;
+  margin-top: 20px;
+  padding-left: 30%;
+}
+.games-option-container .games-option-wrap .games-option-image{
+  width: 50%;
+  text-align: right;
+}
+.games-option-container .games-option-wrap .games-option-image img{
+  width: 80%;
+}
+.games-option-container .floating-image{
+  text-align: center;
+}
+.games-option-container .floating-image .games-option-float-img{
+  border-radius: 8px;
+  width: 270px;
+  height: 320px;
+  background-color: #FFFFFF;
+  margin-top: -250px;
+  margin-left: 235px;
+}
+/* games-option section styles codes end */
+
 
 
 
