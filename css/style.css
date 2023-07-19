@@ -331,9 +331,42 @@ body {
 }
 /* games-option section styles codes end */
 
+/* games list styles code start here */
+.games-list-container{
+  margin-top: 120px;
+}
+.games-list-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  gap: 30px;
+}
+.games-list-wrapper .single-game{
+  display: flex;
+  align-items: center;
+  background-color: #FFFFFF;
+  /* width: 220px; */
+  padding: 5px;
+  margin-top: 20px;
+  border-radius: 50px;
+}
+.games-list-wrapper .single-game img{
+  width: 50px;
+  height: 50px;
 
-
-
+}
+.games-list-wrapper .single-game p{
+  font-size: 1rem;
+  font-weight: 600;
+  margin-left: 10px;
+  color: var(--secondary-color);
+  padding-right: 5px;
+}
+.games-list-wrapper .single-game:hover{
+  border: 2px solid #f948b2;
+}
+/* games list styles code end here */
 
 
 
